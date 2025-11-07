@@ -39,6 +39,7 @@ st.json(json_data)
 
 #지표(숫자+증감률) 표시 
 st.write("### 이번 학기 요약(st.metric)")
-st.metric(label="수강 과목 수", value="5")
-st.metric(label = "총 학점", value="15", delta="+3")
+st.metric(label="수강 과목 수", value="7")
+st.metric(label = "총 학점", value="18", delta="-2")
+
 
